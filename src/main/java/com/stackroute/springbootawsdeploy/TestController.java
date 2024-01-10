@@ -11,4 +11,10 @@ public class TestController {
     public String getData(){
         return "First message for AWS";
     }
+
+    @GetMapping("hello")
+    public String getHello() {
+        return "Hello from AWS Code pipeline";
+    }
+
 }
